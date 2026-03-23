@@ -8,28 +8,36 @@ import BasicNavbar from './componements/navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import DeveloperPage from './Pages/developer/developer';
 import TesterPage from './Pages/tester/tester';
+import FAQPage from './Pages/other/FAQ/faq';
+import TandCPage from './Pages/other/T&C/T&C';
+import ContactUsPage from './Pages/contact/contact_us';
+import AboutUsPage from './Pages/about/about_us';
 
 function App() {
   return (
-    <div className="App">
-      <Routes>
-        {/* <Route path="/" element={< LoginPage />}/>
-        <Route path='/' element= {< HomePage />} />  */}
-        <Route
-          element={
-            <>
-              <BasicNavbar />
-              <Outlet />
-            </>
-          }
-        >
-          <Route path='/' element= {< HomePage />} /> 
-          <Route path='/pricing' element= {< SubscriptionPage />} /> 
-          <Route path='/developer' element= {< DeveloperPage />} /> 
-          <Route path='/tester' element= {< TesterPage />} /> 
-        </Route>
-      </Routes>
-    </div>
+      <div className="App">
+        <Routes>
+          {/* <Route path="/" element={< LoginPage />}/>
+          <Route path='/' element= {< HomePage />} />  */}
+          <Route
+            element={
+              <>
+                <BasicNavbar />
+                <Outlet />
+              </>
+            }
+          >
+            <Route path='/' element= {< HomePage />} /> 
+            <Route path='/pricing' element= {< SubscriptionPage />} /> 
+            <Route path='/developer' element= {< DeveloperPage />} /> 
+            <Route path='/tester' element= {< TesterPage />} /> 
+            <Route path='/faq' element= {< FAQPage />} />
+            <Route path='/t&c' element= {< TandCPage />} />
+            <Route path='/contact_us' element= {< ContactUsPage />} />
+            <Route path='/about_us' element= {< AboutUsPage />} />
+          </Route>
+        </Routes>
+      </div>
   );
 }
 

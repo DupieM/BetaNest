@@ -22,15 +22,15 @@ const Footer = () => {
         <div className="footer-section middle">
           <div>
             <h4>Company</h4>
-            <p>About Us</p>
-            <p>Contact Us</p>
-            <p>FAQ's</p>
-            <p>Terms of Service</p>
+            <a href="/about_us"><p>About Us</p></a>
+            <a href="/contact_us"><p>Contact Us</p></a>
+            <a href="/faq"><p>FAQ's</p></a>
+            <a href="/t&c"><p>Terms of Service</p></a>
           </div>
 
           <div>
             <h4>Community</h4>
-            <p>Blog</p>
+            <a href="/"><p>Blog</p></a>
             <p>Discord</p>
           </div>
         </div>
@@ -39,12 +39,12 @@ const Footer = () => {
         <div className="footer-section right">
           <h4>Follow Us</h4>
           <div className="social-icons">
-            <FaFacebook />
-            <FaInstagram />
-            <FaTwitter />
-            <FaLinkedin />
-            <FaYoutube />
-            <FaDiscord />
+            <FaFacebook size={23} />
+            <FaInstagram size={23} />
+            <FaTwitter size={23} />
+            <FaLinkedin size={23} />
+            <FaYoutube size={23} />
+            <FaDiscord size={23} />
           </div>
         </div>
 

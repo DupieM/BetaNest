@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../../componements/footer';
 
 function AboutUsPage() {
   return (
@@ -6,6 +7,11 @@ function AboutUsPage() {
       <p>
         About us Page
       </p>
+
+      <div>
+        <Footer />
+      </div>
+
     </div>
   );
 }

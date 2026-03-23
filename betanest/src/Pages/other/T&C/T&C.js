@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../../../componements/footer';
 
 function TandCPage() {
   return (
@@ -6,6 +7,11 @@ function TandCPage() {
       <p>
         T & C Page
       </p>
+
+      <div>
+        <Footer />
+      </div>
+
     </div>
   );
 }
