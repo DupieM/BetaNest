@@ -10,6 +10,14 @@
   color: #7EC385;
   margin-top: -15px;
   margin-left: -700px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.brandname a {
+  color: #7EC385;
+  text-decoration: none;
+  font-weight: 700;
 }
 
 .navbar-links {

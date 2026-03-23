@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../../componements/footer';
 
 function TesterPage() {
   return (
@@ -6,6 +7,11 @@ function TesterPage() {
       <p>
         Tester Page
       </p>
+
+      <div>
+        <Footer />
+      </div>
+
     </div>
   );
 }

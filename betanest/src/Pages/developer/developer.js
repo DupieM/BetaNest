@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../../componements/footer';
 
 function DeveloperPage() {
   return (
@@ -6,6 +7,12 @@ function DeveloperPage() {
       <p>
         Developer Page
       </p>
+
+
+      <div>
+        <Footer />
+      </div>
+
     </div>
   );
 }

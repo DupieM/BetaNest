@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../../../componements/footer';
 
 function SubscriptionPage() {
   return (
@@ -6,6 +7,11 @@ function SubscriptionPage() {
       <p>
         Subscription Page
       </p>
+
+      <div>
+        <Footer />
+      </div>
+
     </div>
   );
 }

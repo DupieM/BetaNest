@@ -18,7 +18,7 @@ function BasicNavbar() {
           <img src={logo} alt="Logo" style={{ width: '70%', marginTop: '-20px' }} />
         </Navbar.Brand>
 
-        <h3 className="brandname">BETANEST</h3>
+        <h3 className="brandname"><Link to="/"><span>BETANEST</span></Link></h3>
 
         <div className="navbar-links">
           <Link to="/pricing"><span>Pricing</span></Link>

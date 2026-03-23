@@ -1,5 +1,6 @@
 import React from 'react';
 import './home.css';
+import Footer from '../../componements/footer';
 
 function HomePage() {
   return (
@@ -60,7 +61,9 @@ function HomePage() {
       <br/>
       <br/>
 
-      <h3>Footer</h3>
+      <div>
+        <Footer />
+      </div>
 
     </div>
   );
