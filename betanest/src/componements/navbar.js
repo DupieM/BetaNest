@@ -2,33 +2,32 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import './navbar.css';
 import { Container, Nav, Navbar } from "react-bootstrap";
+import navbarBackground from './navbar_bg.png';
+import logo from './logo.png'
 
 function BasicNavbar() {
   return (
-    <Navbar variant="dark" className="navbar">
+    <Navbar
+      variant="dark"
+      className="navbar"
+      style={{ backgroundImage: `url(${navbarBackground})` }}
+    >
       <Container className="navbar-container">
-        <div>
-          <Navbar.Brand as={Link} to="/" style={{marginLeft: "20px"}}>
-            <img alt="Logo" style={{width: '45%'}} />
-          </Navbar.Brand>
+
+        <Navbar.Brand as={Link} to="/" style={{ marginLeft: "20px" }}>
+          <img src={logo} alt="Logo" style={{ width: '70%', marginTop: '-20px' }} />
+        </Navbar.Brand>
+
+        <h3 className="brandname">BETANEST</h3>
+
+        <div className="navbar-links">
+          <Link to="/pricing"><span>Pricing</span></Link>
+          <Link to="/developer"><span>Developers</span></Link>
+          <Link to="/tester"><span>Testers</span></Link>
         </div>
 
+        <p style={{color: '#7EC385', marginRight: '20px'}}>Register</p>
 
-        <div className="navbar-right">
-          <Link to="/pricing">
-            <h7>Pricing</h7>
-          </Link>
-        </div>
-        <div className="navbar-right2">
-          <Link to="/developer">
-            <h7>Developers</h7>
-          </Link>
-        </div>
-        <div className="navbar-right3">
-          <Link to="/tester">
-            <h7>Testers</h7>
-          </Link>
-        </div>
       </Container>
     </Navbar>
   )

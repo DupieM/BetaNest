@@ -1,6 +1,29 @@
 .navbar {
-    padding: 10px;
-    background-color: #1A1D5C;
+  padding: 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 100px;
+}
+
+.brandname {
+  color: #7EC385;
+  margin-top: -15px;
+  margin-left: -700px;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 30px;
+  margin-right: -630px;
+  margin-top: -15px;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+  color: #7EC385
 }
 
 .navbar-container {
@@ -8,50 +31,4 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-}
-
-.navbar-right {
-  display: flex;
-  align-items: center;
-}
-
-.navbar-right2 {
-  display: flex;
-  align-items: center;
-  margin-left: -900px;
-}
-
-
-.navbar-right3 {
-  display: flex;
-  align-items: center;
-  margin-left: -900px;
-}
-
-.nav-link-custom {
-  font-size: 18pt;
-  font-weight: 700;
-  color: #1B1D13;
-  text-decoration: none;
-}
-
-.nav-link-custom.active {
-  color: #D8D0BD;
-}
-
-.avatar-icon {
-  width: 40px;
-  cursor: pointer;
-  margin-right: 20px;
-}
-
-.logout-button {
-  background: none;
-  border: none;
-  padding: 0;
-  cursor: pointer;
-}
-
-.logout-icon {
-  width: 35px;
 }
