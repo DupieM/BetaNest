@@ -39,12 +39,24 @@ const Footer = () => {
         <div className="footer-section right">
           <h4>Follow Us</h4>
           <div className="social-icons">
-            <FaFacebook size={23} />
-            <FaInstagram size={23} />
-            <FaTwitter size={23} />
-            <FaLinkedin size={23} />
-            <FaYoutube size={23} />
-            <FaDiscord size={23} />
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+              <FaFacebook size={23} />
+            </a>
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+              <FaInstagram size={23} />
+            </a>
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+              <FaTwitter size={23} />
+            </a>
+            <a href="https://za.linkedin.com/" target="_blank" rel="noopener noreferrer">
+              <FaLinkedin size={23} />
+            </a>
+            <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">
+              <FaYoutube size={23} />
+            </a>
+            <a href="https://discord.com/" target="_blank" rel="noopener noreferrer">
+              <FaDiscord size={23} />
+            </a>
           </div>
         </div>
 
