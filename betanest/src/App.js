@@ -12,13 +12,14 @@ import FAQPage from './Pages/other/FAQ/faq';
 import TandCPage from './Pages/other/T&C/T&C';
 import ContactUsPage from './Pages/contact/contact_us';
 import AboutUsPage from './Pages/about/about_us';
+import SignupPage from './Pages/authentication/signup';
 
 function App() {
   return (
       <div className="App">
         <Routes>
-          {/* <Route path="/" element={< LoginPage />}/>
-          <Route path='/' element= {< HomePage />} />  */}
+          <Route path="/" element={< LoginPage />}/>
+          <Route path="/" element={< SignupPage />}/>
           <Route
             element={
               <>
