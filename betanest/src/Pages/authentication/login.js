@@ -13,17 +13,20 @@ function LoginPage() {
 
         <form>
           <div className="form-group">
-            <label className="labels">Full Name</label> <br />
             <input
+              className="bottom-line-input"
               type="text"
+              placeholder="Full Name"
               required
             />
 
             <br />
+            <br />
 
-            <label className="labels">Password</label> <br />
             <input
+              className="bottom-line-input"
               type="password"
+              placeholder="Password"
               required
             />
           </div>
@@ -35,7 +38,7 @@ function LoginPage() {
           <br />
           <br />
 
-          <h5 className="Heading">Don’t have an account? <a href="/signup"><p>Register</p></a></h5>
+          <h5 className="">Don’t have an account? <a href="/signup"><p>Register</p></a></h5>
 
         </form>
       </div>
